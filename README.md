@@ -4,10 +4,33 @@ A python-based command-line script to augment CRISPR-Cas12 and CRISPR-Cas13 Assa
 
 
 ### Installation
-
+Prior to cloning the repo, ensure your python enviroment is setup with the following packages
+```
+Bio
+Pandas
+configparser
+```
+Create a new folder and utilize git to download this into the folder. This is now your PrimedSherlock directory.
 ```
 gh repo clone JamesGerardMann/PrimedSherlock
 ```
+Copy over your background db_fasta (off-target) from PrimedRPA as well as your input.fna (on-target) file. Lastly, copy over your Output_Sets.csv file. 
+```
+background_db.fasta
+input.fna
+Output_Sets.csv
+```
+
+Lastly, we need to prep the tool to use either the CPU or a specific GPU for Cas-OFFinder. Open a cmd prompt, and navigate to our folder using cd. Then type Cas-offinder.exe An example below
+
+```
+cd C:\Users\14man\OneDrive\Desktop\PrimedSherlock\PrimedSherlock
+Cas-Offinder.exe
+```
+
+Under Available Device List find your desired CPU / GPU. Note down the ID #. Open the .py file included with our tool and search for "G0". Change this value wherever you find it to your desired GPU or CPU. For CPU change it to "C1" if its a cpu and # 1. 
+
+Save the tool, close it and run the script.bat file. 
 
 ### Parameters
 ```
