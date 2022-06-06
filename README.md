@@ -4,7 +4,7 @@ A python-based command-line script to augment CRISPR-Cas12 and CRISPR-Cas13 Assa
 
 
 ### Installation
-Prior to cloning the repo, ensure your python enviroment is setup with the following packages
+Prior to cloning the repo, ensure your python environment is setup with the following packages
 ```
 Bio
 Pandas
@@ -79,7 +79,7 @@ This sets lower limits on how many mismatches are required for the crRNA to be d
 ```
 Contingency_crRNA_Utilization
 ```
-This is very experimental and should not be used. It recognizes which strains have low affinity to be detected by crRNA targets and generates potential seperate pairs for highly conserved, highly mismatched strains. 
+This is very experimental and should not be used. It recognizes which strains have low affinity to be detected by crRNA targets and generates potential separate pairs for highly conserved, highly mismatched strains. 
 
 
 ```
@@ -114,7 +114,7 @@ PrimerSherlock incorporates segments of ...
 PrimedRPA - https://github.com/MatthewHiggins2017/bioconda-PrimedRPA
 
 
-PrimedSherlock includes an excutable from...
+PrimedSherlock includes an executable from...
 
 
 Cas-Offinder http://www.rgenome.net/cas-offinder/
