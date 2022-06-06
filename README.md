@@ -86,8 +86,14 @@ PrimedSherlock runs generate the following output file:
 ### 3rd-Party Software
 
 PrimerSherlock incorporates segments of ...
+
+
 PrimedRPA - https://github.com/MatthewHiggins2017/bioconda-PrimedRPA
+
+
 PrimedSherlock includes an excutable from...
+
+
 Cas-Offinder http://www.rgenome.net/cas-offinder/
 
 ### Contact
