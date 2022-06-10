@@ -1,3 +1,3 @@
 @echo off
-python NewCode.py %*
+python V1.py %*
 pause
